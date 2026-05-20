@@ -244,8 +244,7 @@ if not st.session_state.logged_in:
             else:
                 st.error("Invalid username or password.")
 
-        st.info("Default Admin Login: admin / admin123")
-
+        
     else:
         st.subheader("Create Teacher Account")
         full_name = st.text_input("Full Name")
